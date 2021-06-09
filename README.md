@@ -8,8 +8,8 @@
 
 • [License](#license)
 • [Description](#description)
-• [Usage](#usage)
 • [Installation](#installation)
+• [Usage](#usage)
 • [Technologies](#technologies)
 • [Links](#links)
 • [Questions](#questions)
@@ -19,20 +19,21 @@
 
 This is a backend structure for an e-commerce server that uses Sequelize and NodeJS to serve products, categories, tags, etc... via an API upon request.
 
-### Usage
-
-To run the application you need to run the following command line:
-
-```
-npm start
-```
-
 ### Installation
 
 To install the application you need to run the following command line:
 
 ```bash
 npm i
+npm run seed
+```
+
+### Usage
+
+To run the application you need to run the following command line:
+
+```
+npm start
 ```
 
 ### Technologies
