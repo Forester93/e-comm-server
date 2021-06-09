@@ -43,9 +43,9 @@ npm i
 
 ## Links
 
-### Link to the Deployed Application
+### Link to a Video Walkthrough
 
-[E-Comm Server Deployed Webpage](https://forester93.github.io/e-comm-server/)
+[Video Walkthrough Here](https://drive.google.com/file/d/17YcdN_S-Q61S81CktGrRYgcvfqCIKVG2/view?usp=sharing)
 
 ### Link to the Github Repository
 
