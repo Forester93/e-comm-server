@@ -53,7 +53,7 @@ npm i
 
 ### Screenshot of the Application
 
-![Screenshot of the page](/assets/images/screenshot.png)
+![Screenshot of the page](./assets/images/screenshot.png)
 
 ## Questions
 
