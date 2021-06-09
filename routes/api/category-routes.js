@@ -72,10 +72,10 @@ router.delete("/:id", async (req, res) => {
       where: { id: req.params.id },
     });
     if (!categories) {
-      res.status(404).json({ message: "No category with this id!" });
+      res.status(404).json({ message: "Record not found!" });
       return;
     }
-    res.status(200).json(categories);
+    res.status(200).send("Record deleted!");
   } catch (err) {
     res.status(500).json(err);
   }

@@ -37,7 +37,7 @@ router.post("/", async (req, res) => {
   // create a new tag
   try {
     const tags = await Tag.create(req.body);
-    res.status(200).send("Record Created!");
+    res.status(200).json(tags);
   } catch (err) {
     res.status(400).send(err);
   }
@@ -53,7 +53,7 @@ router.put("/:id", async (req, res) => {
       res.status(404).send("Record not found!");
       return;
     }
-    res.status(200).send("Record updated!");
+    res.status(200).json(tags);
   } catch (err) {
     res.status(500).send(err);
   }
@@ -69,7 +69,7 @@ router.delete("/:id", async (req, res) => {
       res.status(404).send("Record not found!");
       return;
     }
-    res.status(200).send("Record deleted!");
+    res.status(200).json(tags);
   } catch (err) {
     res.status(500).send(err);
   }
